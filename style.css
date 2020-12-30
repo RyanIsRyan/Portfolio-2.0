@@ -1,0 +1,52 @@
+
+h1{
+    color: black;
+   margin-top: 50px;
+    padding: 30px;
+    
+}
+
+.header *{
+    border:solid
+    
+}
+.menu{
+    margin-top: 10px;
+}
+.menu a{
+    margin:10px;
+    
+}
+.header{
+   background-color:turquoise ;
+   
+   display:flex;
+   justify-content: space-between;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.icons{
+    display: flex;
+    
+    justify-content:flex-start;
+    
+}
+a:link{
+    color:blue
+}
+a:visited{
+    color:purple
+}
+.item p{
+    opacity:0;
+}
+.item:hover p{
+    opacity: 1;
+}
+.item:hover img{
+    opacity: 0.33;
+}
